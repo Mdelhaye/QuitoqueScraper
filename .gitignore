@@ -1,0 +1,13 @@
+# Ignores the Edge driver executable
+msedgedriver.exe
+
+# Ignores LOG and PDF directory
+LOG/
+PDF/
+
+# Ignores editor configuration files
+.vscode/
+
+# Ignores __pycache__ folders
+cleaner/__pycache__
+scraper/__pycache__
