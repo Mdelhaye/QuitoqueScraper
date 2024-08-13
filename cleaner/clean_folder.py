@@ -1,7 +1,5 @@
 import os
-
-PDF_DIR_PATH = './../PDF'
-LOG_DIR_PATH = './../LOG'
+from cleaner.config import PDF_DIR_PATH, LOG_DIR_PATH
 
 def delete_files_in_directory(directory):
     for root, dirs, files in os.walk(directory):
